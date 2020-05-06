@@ -14,7 +14,7 @@ body {
 /* Conatiner */
 .container {
     width: 100%;
-    max-width: 450px;
+    max-width: 650px;
     margin: 0 auto;
 
     font-family: sans-serif;
@@ -23,11 +23,11 @@ body {
 /* Selector */
 
 .selector {
-    margin-top: 10px;
-    position: relative;
+    margin: 0px 20px 10px 20px;
+    height: 55px;
 }
 
-.string__input{
+.string__input {
     background-color: #ececec;
     border: 0px;
     border-radius: 10px;
@@ -35,32 +35,34 @@ body {
     padding: 0px 0px 0px 15px;
     
     height: 55px;
-    width: 320px;
-    margin: 0px 0px 10px 20px;
+    width: calc(100% - 80px);
+    max-width: 650px;
     
     font-family: sans-serif;
     font-size: 24px;
     color: #999;
     font-style: italic;
-    
-    position: absolute;
 }
 
-.close__btn{
+.close__btn {
     background-color: #ececec;
-    border: 0px;
     border-radius: 10px;
+    float: right;
     
     height: 55px;
     width: 55px;
     
     text-align: center;
-    font-size: 24px;
-    color: #999;
-    
-    position: absolute;
-    right: 20px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
