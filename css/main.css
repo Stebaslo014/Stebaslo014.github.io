@@ -40,8 +40,12 @@ body {
     
     font-family: sans-serif;
     font-size: 24px;
-    color: #999;
+    color: #333;
     font-style: italic;
+}
+
+.string__input::placeholder{
+    color: #ccc;
 }
 
 .close__btn {
@@ -55,6 +59,10 @@ body {
     text-align: center;
 }
 
+
+.hidden {
+    display: none;
+}
 
 
 
