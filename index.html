@@ -3,16 +3,17 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
     <title>Выбор шрифта</title>
 </head>
 <body>
     <div class="container">
-        <h1 style="text-align: center">Шрифтовальщик</h1>
+        <h1 style="text-align: center">Font-master</h1>
         
         <div class="selector">
-            <input class="string__input" type="text" placeholder="Введи текст...">
+            <input class="string__input" type="text" placeholder="Текст первой строки...">
             <div class="close__btn">
                 <img style="padding-top: 14px" src="images/close.png">
             </div> 
@@ -79,17 +80,12 @@
             <div class="close__btn">
                 <img style="padding-top: 14px" src="images/close.png">
             </div> 
-        </div>  
+        </div>
         
+
+    </div>        
         
-        <script> $(document).ready(() => {
-	                   $('.container').on('click', '.close__btn', (event) => {
-                       $(event.currentTarget).closest('.selector').hide();
-                    })
-                    });  
-        </script>
-        
-    </div>
+  
 </body>
 </html>
 
