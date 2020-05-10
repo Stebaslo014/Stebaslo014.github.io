@@ -29,6 +29,7 @@ body {
 
 .string__input {
     background-color: #ececec;
+    outline: none;
     border: 0px;
     border-radius: 10px;
     
