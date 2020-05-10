@@ -1,6 +1,6 @@
 jQuery(document).ready(() => {
 	$('.container').on('click', '.close__btn', (event) => {
-  	$(event.currentTarget).closest('.selector').slideUp(200);
+  	$(event.currentTarget).closest('.selector').hide(500);
   })
 });
 
